@@ -79,8 +79,9 @@ a:hover {
     display: inline-block;
     padding: 8px 20px;
     vertical-align: middle;
-    font-weight: 300;
+    font-size: 20px;
     letter-spacing: 0.025em;
+    color: beige !important;
 }
 
 #background-image {
@@ -118,4 +119,25 @@ a:hover {
 
 span {
     font-size: 1.5cm;
+}
+
+
+
+
+/***********************************FOOTER********************************************/
+
+footer {
+    padding: 50px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+footer nav a i {
+    font-size: 3rem;
+}
+
+footer p {
+    font-size: 1.3rem;
+    max-width: 50%;
+    margin: 80px auto;
 }
